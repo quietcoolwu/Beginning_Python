@@ -1,5 +1,5 @@
 from urllib.request import urlopen
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 
 text = urlopen('http://python.org/community/jobs').read()
 soup = BeautifulSoup(text)

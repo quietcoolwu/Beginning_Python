@@ -10,6 +10,7 @@ def convert(value):
 conn = sqlite3.connect('food.db')
 curs = conn.cursor()
 
+
 curs.execute('''
 CREATE TABLE food (
   id         TEXT       PRIMARY KEY,
